@@ -4,7 +4,7 @@ author: Christian Treffenstädt
 updated: 2022-05-15
 
 """
-
+#TODO: optional flags (Telefonnummer)
 import alfred3 as al
 
 registration_page_content = dict(
@@ -312,7 +312,7 @@ class RegistrationPage(al.UnlinkedDataPage):
         self += al.RegEntry(
             name="exp_reg_phone",
             toplab=self.content["phone_instr"],
-            force_input=True,
+            force_input=False,
             layout=5,
             pattern=self.content["phone_pattern"],
             match_hint=self.content["phone_match_hint"],

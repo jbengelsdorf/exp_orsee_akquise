@@ -1,5 +1,5 @@
 alert = """
-Wir hoffen, dass wir Sie von einer Registrierung bei Orsee3 überzeugen konnten.<br> 
+Wir hoffen, dass wir Sie von einer Registrierung überzeugen konnten.<br> 
 Um die Registrierung vorzunehmen, klicken Sie bitte auf "Weiter".
 """
 
@@ -42,7 +42,7 @@ informed_consent_content = dict(
     <br>
     Um Sie als Versuchsperson in unserer Datenbank registrieren zu können, benötigen wir 
     einige personenbezogene Informationen von Ihnen.
-    Bei Fragen zur Studie wenden Sie sich bitte an 
+    Bei Fragen wenden Sie sich bitte an 
     <span style="color: blue; ">{study_email}</span>. Verantwortlich für diese Datenerhebung ist 
     {experimenter_in_charge} ({experimenter_in_charge_email}).
     """,
@@ -56,7 +56,7 @@ informed_consent_content = dict(
     Die erfassten Daten dienen ausschließlich der Organisation von wissenschaftlichen 
     Experimenten. Diese Daten werden nicht an Dritte weitergegeben. Wir benutzen die Daten zu den 
     folgenden Zwecken: <ul>
-    <li> um die Versuchspersonen über neue Labor- oder Onlineexperimente zu informieren und dazu 
+    <li> um Versuchspersonen über neue Labor- oder Onlineexperimente zu informieren und dazu 
     einzuladen.</li>
     <li> um eine wissenschaftlich motivierte Auswahl von Versuchspersonen für bestimmte Experimente 
     durchzuführen.</li>
